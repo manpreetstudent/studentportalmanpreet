@@ -1,0 +1,88 @@
+/* DATATABLES */
+table.dataTable thead .sorting,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_desc,
+table.dataTable thead .sorting_asc_disabled,
+table.dataTable thead .sorting_desc_disabled {
+    background: transparent !important;
+}
+
+.dataTables_wrapper {
+    padding-bottom: 30px !important;
+}
+.dataTables_length {
+    float: left !important;
+}
+.dataTables_filter label {
+    margin-right: 5px !important;
+}
+
+.dataTables_wrapper .row{
+    width: 100% !important;
+}
+
+.dataTables_wrapper .row .dataTables_length{
+    float: left !important;
+}
+
+.dataTables_wrapper .row .dataTables_filter{
+    float: right !important;
+}
+
+div.dataTables_wrapper div.dataTables_info {
+    padding-top: 8px !important;
+    white-space: nowrap !important;
+}
+
+div.dataTables_wrapper div.dataTables_paginate {
+    margin: 0 !important;
+    text-align: right !important;
+    white-space: nowrap !important;
+}
+
+.pagination {
+    border-radius: 4px !important;
+    display: inline-block !important;
+    margin: 20px 0 !important;
+    padding-left: 0 !important;
+}
+
+.pagination > li {
+    display: inline;
+}
+
+div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+    margin: 2px 0 !important;
+    white-space: nowrap !important;
+}
+
+div.dataTables_wrapper div.dataTables_paginate
+{
+    white-space: nowrap;
+    text-align: right;
+}
+
+.pagination > li > a, .pagination > li > span {
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    color: inherit;
+    float: left;
+    line-height: 1.42857;
+    margin-left: -1px;
+    padding: 4px 10px;
+    position: relative;
+    text-decoration: none;
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+    background-color: #f4f4f4 !important;
+    border-color: #DDDDDD !important;
+    color: inherit !important;
+    cursor: default !important;
+    z-index: 2 !important;
+}
